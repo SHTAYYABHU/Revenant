@@ -1,0 +1,345 @@
+{
+  "image": "jffs2_s3.img",
+  "filesystem": "jffs2",
+  "generator": "synthetic node log, no garbage collection",
+  "items": [
+    {
+      "path": "/logs/f00000.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00001-94a02f34a6",
+      "sha256": "9a6a93e23ced3ada02023e1fc1cc7562db36d6ed2e0fb9c860df213a2c70666a",
+      "size": 213,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00001.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00002-d581daad10",
+      "sha256": "06443556cdef8cea8d04a55758270ee0b826a8bcdc22eeffc1f9abcaf0c612d9",
+      "size": 5932,
+      "phase": "main"
+    },
+    {
+      "path": "/f00002.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00003-304f9d1f17",
+      "sha256": "a8d85ce1c747e89a18b6f9463007c5ab75959d3243d6b400a1d00e48d541cbc1",
+      "size": 116,
+      "phase": "main"
+    },
+    {
+      "path": "/f00003.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00004-f001e694c3",
+      "sha256": "3886afb6a5a94373afe24f85f154b8b793c45bbd7f5db7dcc130275c33b6d5d5",
+      "size": 2260,
+      "phase": "main"
+    },
+    {
+      "path": "/f00004.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00005-ba81413ec6",
+      "sha256": "40aaa52053051725a5bafbc2daec956ad20e1fcb535beaafab4540ed72617c6a",
+      "size": 4462,
+      "phase": "main"
+    },
+    {
+      "path": "/f00005.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00006-422df6fa51",
+      "sha256": "221891d5d12e6dece923a203993e160720a0eb1181f760a67741b262d9a52b7f",
+      "size": 42,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00006.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00007-a6344441d0",
+      "sha256": "c29ad54215a93e8dbfec52682127f96d41ca851a9939af41ae03f6f896d736c5",
+      "size": 304,
+      "phase": "main"
+    },
+    {
+      "path": "/f00002.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00008-1bde0bf392",
+      "sha256": "02941e494d300e0c28d3a48e42ff27731719f375327ab07beefacde93abe0087",
+      "size": 8920,
+      "phase": "main"
+    },
+    {
+      "path": "/f00005.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00009-e646095cad",
+      "sha256": "0a5f9c9f446beed9a2540b2e653f12cc5dc2c0e14c9e1f024db2059f62252b2c",
+      "size": 99,
+      "phase": "main"
+    },
+    {
+      "path": "/f00009.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00010-94d579288b",
+      "sha256": "d44e46bcaff8fe54529bc18b6d78f8bb9110f177a2c3aaa003d6c0531fa062ed",
+      "size": 80,
+      "phase": "main"
+    },
+    {
+      "path": "/f00010.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00011-9c4fa376ef",
+      "sha256": "6db036e2766a99c252c02ed1c7d645b3792842c789b452c3dd3fdeec83c02ee4",
+      "size": 97,
+      "phase": "main"
+    },
+    {
+      "path": "/f00010.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00012-214a502a1b",
+      "sha256": "12c34fd2b36cfd69c998df32e724bd3649aaee8becdb2069fa85d309a9bdb126",
+      "size": 242,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00012.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00013-1920ee9dc8",
+      "sha256": "57574f41f15c6270d7e7591d9d84bb5adbb5dfa6446509e1dacf08a8fa8f2480",
+      "size": 4274,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00012.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00014-962a610013",
+      "sha256": "d1df9548bd65d6fb479dbc78a2ca1b383d869711386e97d3d7790906009702f5",
+      "size": 207,
+      "phase": "main"
+    },
+    {
+      "path": "/f00002.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00015-f674af9a57",
+      "sha256": "f2e6e6468d1a0456e13acf5a3f92ea23c1511ade6bc7e9ee0c06533350fb031c",
+      "size": 78,
+      "phase": "main"
+    },
+    {
+      "path": "/f00003.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00016-1bd8ebf653",
+      "sha256": "4a0f03f69e823ff852d82bd74ad996952ef0b43b93ae77d7217fe66db12951b1",
+      "size": 4201,
+      "phase": "main"
+    },
+    {
+      "path": "/f00002.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00017-4778b0d55c",
+      "sha256": "8a05150092b4ab693282169f722098468cd4f5c415ea394cc3d841ae45150d49",
+      "size": 3017,
+      "phase": "main"
+    },
+    {
+      "path": "/f00005.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00018-b980149d52",
+      "sha256": "75c367ed926fe9f89f3ff9e8a5672870996d5863fc45dbbf1f7d215afe779d9f",
+      "size": 239,
+      "phase": "main"
+    },
+    {
+      "path": "/f00018.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00019-ae73c06fc2",
+      "sha256": "57145e7fa9a91cf27d6d828ecd2ddaef286f14483b5ecbbae477b6a6929ba770",
+      "size": 83,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00001.dat",
+      "state": "live",
+      "token": "RVN-J0003-00020-9655357af4",
+      "sha256": "cba6057c48787d208de7589b87cab3635d2af6fd304dc2c314a64c19cf93ae61",
+      "size": 142,
+      "phase": "main"
+    },
+    {
+      "path": "/f00020.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00021-11cbbbc395",
+      "sha256": "5df3da635b341c5aa9fd01b369a2ddc8db2eeed12ecb3ef94eec461f5e95aa92",
+      "size": 7029,
+      "phase": "main"
+    },
+    {
+      "path": "/f00021.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00022-04d89ae0b1",
+      "sha256": "58e4130f16f19fa8d3a96a41c7fafa42683753aa18d8e1e6a1f87b6190a07ff8",
+      "size": 137,
+      "phase": "main"
+    },
+    {
+      "path": "/f00022.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00023-420a008385",
+      "sha256": "93bdbec259043d5f0b4220c9be6a3596d594fab15cc2134af84a1595e464b46b",
+      "size": 107,
+      "phase": "main"
+    },
+    {
+      "path": "/f00022.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00024-077e649b13",
+      "sha256": "9e06c93984f290e7aaab0d3f89713f5f6a34949160cedbaf0e5e3a9fd1d197a4",
+      "size": 304,
+      "phase": "main"
+    },
+    {
+      "path": "/f00024.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00025-b8ad110f6b",
+      "sha256": "51b6fb6c4e88daac7ceb58f9de02855cb5a6ba85a10c2ea466c5ef3aa7023bc8",
+      "size": 4726,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00025.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00026-e87ec13ed2",
+      "sha256": "ea7bcedc9b2eedaa18736e948b679c17c080b8c1dea0bf7701c924b152915efe",
+      "size": 388,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00026.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00027-f6e1cd7ff6",
+      "sha256": "8d9f96170937a86bf05cae12840392f84ddfb8ad6bc4f7641e6b6bd57e10a5b7",
+      "size": 2355,
+      "phase": "main"
+    },
+    {
+      "path": "/f00002.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00028-378be17a6a",
+      "sha256": "3e1ef2a2b3e5ca48c18c100ec9fdd32330b747b4bc7c1cc258e9e56a0bb8a242",
+      "size": 328,
+      "phase": "main"
+    },
+    {
+      "path": "/f00028.dat",
+      "state": "live",
+      "token": "RVN-J0003-00029-a3604f03b8",
+      "sha256": "78460f1f1bb51f30a479f8467e5cdde3f8b8273a055f8a64e599949f53c97b85",
+      "size": 8862,
+      "phase": "main"
+    },
+    {
+      "path": "/f00020.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00030-eca604c411",
+      "sha256": "e1e738e38d160249d694b7da17298dbe25b7d5dfb8b9cc4b0f26547c8d022f05",
+      "size": 169,
+      "phase": "main"
+    },
+    {
+      "path": "/f00030.dat",
+      "state": "live",
+      "token": "RVN-J0003-00031-6b054142ff",
+      "sha256": "2e25e481be93e5bdc05135aebe008e7832e8e03a1831ba1b8fe07efda104b65e",
+      "size": 127,
+      "phase": "main"
+    },
+    {
+      "path": "/f00031.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00032-cb70fc32e2",
+      "sha256": "cc532afceee5361e36b89198d3dfb2ad1824aba6e6c9af40b7e5757183661a10",
+      "size": 3641,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00032.dat",
+      "state": "live",
+      "token": "RVN-J0003-00033-275a1d8ec2",
+      "sha256": "32cf7523c63dd1fc892217dd8d5c36e4320f9be6f633760e7014cb9fa04e9900",
+      "size": 1932,
+      "phase": "main"
+    },
+    {
+      "path": "/f00009.dat",
+      "state": "live",
+      "token": "RVN-J0003-00034-f7a0c982c0",
+      "sha256": "6800b3c3851ace2e963305d0c1f3f69bfb31d2891b2b7c0bc9e163cb70a3e002",
+      "size": 236,
+      "phase": "main"
+    },
+    {
+      "path": "/f00034.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00035-1f9a737c53",
+      "sha256": "7a4fde5dfe4d0a0004db96b3115eef48cb66f517735b2af14ec7ff9ac8302b32",
+      "size": 222,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00035.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00036-415558d1da",
+      "sha256": "e1144d28a3f2d1ebd730d29d765d8b48083257516ce5e8fd42c55f4654726e67",
+      "size": 46,
+      "phase": "main"
+    },
+    {
+      "path": "/f00036.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00037-bc86f24766",
+      "sha256": "5c69673a8d04b7ce9dee18d3a62a212b92a44691eefa193e60107ad33aa430fd",
+      "size": 258,
+      "phase": "main"
+    },
+    {
+      "path": "/f00003.dat",
+      "state": "obsolete",
+      "token": "RVN-J0003-00038-0112d1aaa5",
+      "sha256": "9b502a597f502a7275b76a8d8d43e25e508b6104c93ac6bc8aab26505c38a767",
+      "size": 176,
+      "phase": "main"
+    },
+    {
+      "path": "/f00003.dat",
+      "state": "live",
+      "token": "RVN-J0003-00039-48c0966250",
+      "sha256": "b8af07c52e8c19561aa96f69475271bcc05e191cc35f8a868a70bcc64f523537",
+      "size": 58,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00039.dat",
+      "state": "live",
+      "token": "RVN-J0003-00040-8a77109953",
+      "sha256": "f6b488956e4f471f5a0997c3f10381cfdf3eade9342294fbf6d9110da5d93320",
+      "size": 4107,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00035.dat",
+      "state": "live",
+      "token": "RVN-J0003-00041-5d68f9c73e",
+      "sha256": "8e07355842cf98ab74fe35017fbe14696dceedc2e074caeee65d60bbf8c37c50",
+      "size": 139,
+      "phase": "main"
+    },
+    {
+      "path": "/logs/f00041.dat",
+      "state": "deleted",
+      "token": "RVN-J0003-00042-ea4b614295",
+      "sha256": "ed504b08a0dbe2886d838c2ab6cfed7ddf53302fa70fc43ed04e3a9d6ce94cc3",
+      "size": 5998,
+      "phase": "main"
+    }
+  ],
+  "seed": 3,
+  "survival": "all"
+}

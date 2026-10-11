@@ -1,0 +1,71 @@
+{
+  "image": "jffs2_demo.img",
+  "filesystem": "jffs2",
+  "generator": "hand written nodes with kernel CRCs, no garbage collection",
+  "items": [
+    {
+      "path": "/secret.txt",
+      "state": "obsolete",
+      "token": "RVN-JDEMO-00001",
+      "sha256": "043cd960653e4391621e12d42e2ab918ab9388864ba3a9e8953042759beadb94",
+      "size": 49,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/secret.txt",
+      "state": "live",
+      "token": "RVN-JDEMO-00002",
+      "sha256": "16de3446c646ba7e77299cb28d28e5623b1acb02359398ffa570b49da86bd7d5",
+      "size": 49,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/todelete.txt",
+      "state": "deleted",
+      "token": "RVN-JDEMO-00003",
+      "sha256": "380bf19f6fad3be6d17707d9baf081b2f871c3f897b2412bbd3ce7e6c3ab297f",
+      "size": 48,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/keys.pem",
+      "state": "live",
+      "token": "RVN-JDEMO-00004",
+      "sha256": "122c1334135f5e7f01ca92dd1ddd8e04e9f16f5485cc4ce686ba73c0f40450d5",
+      "size": 148,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/logs/boot.log",
+      "state": "obsolete",
+      "token": "RVN-JDEMO-00005",
+      "sha256": "b2ee6641a6820597e0b65dabf6dfa0417b91f886d2377872986224609e20b5af",
+      "size": 60,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/logs/boot.log",
+      "state": "live",
+      "token": "RVN-JDEMO-00006",
+      "sha256": "0b6c539a2295715347eb560cd6253dc1197574d0f4b35e78e99aa4ff5b2e4142",
+      "size": 26,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/logs/readings.csv",
+      "state": "live",
+      "token": "RVN-JDEMO-00007",
+      "sha256": "248110629b37eeb970e60905892fb3a52010efdce16ee03931b277489aa8788c",
+      "size": 9000,
+      "phase": "main",
+      "survives": true
+    }
+  ],
+  "survival": "all"
+}

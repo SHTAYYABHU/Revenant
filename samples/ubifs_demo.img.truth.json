@@ -1,0 +1,44 @@
+{
+  "image": "ubifs_demo.img",
+  "filesystem": "ubifs",
+  "generator": "hand written nodes with kernel CRCs, parser check only",
+  "items": [
+    {
+      "path": "/config.json",
+      "state": "live",
+      "token": "RVN-UDEMO-00001",
+      "sha256": "74a6d0ba70eeacdfb7b32f33b7d24abb479b2aedd612b0a1b0f9a1867d203dee",
+      "size": 62,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/secret.txt",
+      "state": "obsolete",
+      "token": "RVN-UDEMO-00002",
+      "sha256": "f0fe062aa2fec8f5e928f5b88194251db675befc1208461c54d34479024d6b44",
+      "size": 39,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/secret.txt",
+      "state": "live",
+      "token": "RVN-UDEMO-00003",
+      "sha256": "2037c5b0c0c5b8cf62993f386e42d404fabd6771ee2d2b306c3579a6e0deefb7",
+      "size": 40,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/old.log",
+      "state": "deleted",
+      "token": "RVN-UDEMO-00004",
+      "sha256": "b84d0b9b227692945ccf3ced42382cce5bb09537cbb395959fda96bd5ad54750",
+      "size": 3000,
+      "phase": "main",
+      "survives": true
+    }
+  ],
+  "survival": "all"
+}

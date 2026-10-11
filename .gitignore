@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# transient benchmark runs, the committed baseline lives in bench_results/
+bench_results_nand/
+nand_bench/

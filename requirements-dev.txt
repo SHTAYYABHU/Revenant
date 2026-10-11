@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=7
+littlefs-python>=0.19
+matplotlib>=3.7
+pillow>=10

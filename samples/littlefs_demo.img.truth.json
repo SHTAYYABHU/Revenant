@@ -1,0 +1,70 @@
+{
+  "image": "littlefs_demo.img",
+  "filesystem": "littlefs",
+  "generator": "littlefs-python reference implementation",
+  "items": [
+    {
+      "path": "/config.ini",
+      "state": "live",
+      "token": "RVN-LDEMO-00001",
+      "sha256": "0058d0efb4807e2ba87c87762ab5f9a30b20f4d96400b588f3e6e798f9b55633",
+      "size": 82,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/log.txt",
+      "state": "obsolete",
+      "token": "RVN-LDEMO-00002",
+      "sha256": "18afd53e2486e6fd1395de3fe419cc49795bafa017faa7616b0501af40119ac6",
+      "size": 60,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/token.txt",
+      "state": "deleted",
+      "token": "RVN-LDEMO-00003",
+      "sha256": "5e777a66247fb451dcab783d5c62745f166a8766f97ec5de2ec41d040e1ab29e",
+      "size": 46,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/firmware/update.bin",
+      "state": "live",
+      "token": "RVN-LDEMO-00004",
+      "sha256": "9206f2e52a4ef97531585b3c759bbee9cadb83c66fe9bb276afdc48c28034ae3",
+      "size": 5000,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/cam/snap_0001.jpg",
+      "state": "deleted",
+      "token": "RVN-LDEMO-00005",
+      "sha256": "c09ac42be97bc1e7f4560735b71fe46d2c6ceff086571738b6c4f521e4339d0b",
+      "size": 2902,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/log.txt",
+      "state": "live",
+      "token": "RVN-LDEMO-00006",
+      "sha256": "8f008ecad8058a8bc2f8590b1b4c42fca925aa8f74c39556f26a26c3968bb2e0",
+      "size": 46,
+      "phase": "main",
+      "survives": true
+    }
+  ],
+  "config": {
+    "block_size": 4096,
+    "block_count": 128,
+    "read_size": 16,
+    "prog_size": 16,
+    "cache_size": 256,
+    "lookahead_size": 16
+  },
+  "survival": "scan"
+}

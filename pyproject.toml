@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revenant-forensics"
+version = "0.1.0"
+description = "Recovers deleted and superseded data remnants from raw flash images"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Syed Tayyab Hussain" }]
+dependencies = ["PySide6-Essentials>=6.5", "reportlab>=4.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "littlefs-python>=0.19", "matplotlib>=3.7", "pillow>=10"]
+lzo = ["python-lzo"]
+zstd = ["zstandard"]
+
+[project.scripts]
+revenant-cli = "revenant.cli:main"
+
+[project.gui-scripts]
+revenant = "revenant.app:main"
+
+[tool.setuptools.packages.find]
+include = ["revenant*"]
+
+[tool.setuptools.package-data]
+revenant = ["assets/*.png"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

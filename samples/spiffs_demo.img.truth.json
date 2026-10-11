@@ -1,0 +1,44 @@
+{
+  "image": "spiffs_demo.img",
+  "filesystem": "spiffs",
+  "generator": "spiffsgen image with a SPIFFS style deletion applied",
+  "items": [
+    {
+      "path": "/config.json",
+      "state": "live",
+      "token": "RVN-SDEMO-00001",
+      "sha256": "fce8ea729064d4f4cd7192504a14a65ad78d54ff02a966c85aa6239c92c59240",
+      "size": 69,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/secret.txt",
+      "state": "deleted",
+      "token": "RVN-SDEMO-00002",
+      "sha256": "297e6f0436e832939aa22ac61cac65e536d59b3e64ad9684714d7bedc989b245",
+      "size": 48,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/www/index.html",
+      "state": "live",
+      "token": "RVN-SDEMO-00003",
+      "sha256": "b5c9082d3545c72e1b499a0110f642d4b959517432f35746104f63ddec227aaa",
+      "size": 1500,
+      "phase": "main",
+      "survives": true
+    },
+    {
+      "path": "/log.txt",
+      "state": "live",
+      "token": "RVN-SDEMO-00004",
+      "sha256": "3a08b45c91e39d773059928ed0e0ddc5a44b4da62f8b61a2ae4d21dad9b245e3",
+      "size": 40,
+      "phase": "main",
+      "survives": true
+    }
+  ],
+  "survival": "scan"
+}
